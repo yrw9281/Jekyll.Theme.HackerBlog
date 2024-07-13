@@ -1,0 +1,9 @@
+<footer>
+  <a href="{{ site.author.url }}">
+    <span>
+        {{ site.owner }}
+    </span>
+    {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
+    <span>© {{ currentyear }}</span>
+  </a>
+</footer>
